@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halyk Travel</title>
+    <meta name="description" content="Halyk Travel">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <div class="container-fluid header-tab pt-md-5 pt-sm-4 pt-xs-4 pb-0 mb-0">
+        <div class="container pt-md-2 pt-sm-2">
+            <div class="d-flex flex-row pt-md-0 pt-sm-5 mb-0 pb-0">
+                <div class="flex-column col-md-7 col-sm-12 pr-md-5 pr-sm-0">
+                    <div class="d-flex flex-row">
+                        <img src="src/img/logo.svg" alt="" class="mr-3">
+                        <h1>Halyk Travel</h1>
+                    </div>
+                    <p class="header-tab__content-text mt-2">
+                        Приложение помогает вам забронировать и купить авиабилеты без комиссий.
+                    </p>
+                    <div class="d-flex flex-row mt-4">
+                        <button onclick="window.location.href = '#';" class="button-appstore mr-3"></button>
+                        <button onclick="window.location.href = '#';" class="button-playmarket"></button>
+                    </div>
+                </div>
+                <div class="flex-column col-md-5 col-sm-12 d-none d-sm-block mb-0 pb-0 ml-5">
+                    <img src="src/img/phone.png" class="phone" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 mt-sm-0">
+        <div class="container">
+            <div class="row mt-md-3 mt-sm-0">
+                <div class="col-md-6">
+                    <img src="src/img/baggage.png" class="middle-part__baggage">
+                </div>
+            </div>
+            <div class="row mt-md-5 mt-sm-0 pt-md-5 pt-sm-0">
+                <div class="col-md-4 col-sm-0"></div>
+                <div class="col-md-8 col-sm-12 ml-md-0 pl-md-0 ml-sm-4">
+                    <p class="middle-part__title">Популярные направления</p>
+                </div>
+            </div>
+            <div class="row justify-content-end float-right" id="directions">
+                <div class="col-md-6 col-sm-12">
+                    <div class="middle-part__card d-flex flex-row">
+                        <img src="src/img/card_lon.png" alt="card-image" class="middle-part__card-image">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex flex-row justify-content-around">
+                                <p class="middle-part__card-title ml-4 mt-3">Нур-Султан - Лондон</p>
+                                <img src="src/img/badge_1.png" alt="" class="middle-part__card-icon ml-2 mt-3">
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="src/img/ic_plane.svg" alt="" class="ml-4">
+                                <div class="d-flex flex-column ml-4">
+                                    <p class="middle-part__card-flight">TSE - LON</p>
+                                    <p class="middle-part__card-time">10:55 — 15:40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="middle-part__card d-flex flex-row">
+                        <img src="src/img/card_ist.png" alt="card-image" class="middle-part__card-image">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex flex-row justify-content-around">
+                                <p class="middle-part__card-title ml-4 mt-3">Нур-Султан - Стамбул</p>
+                                <img src="src/img/badge_2.png" alt="" class="middle-part__card-icon ml-2 mt-3">
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="src/img/ic_plane.svg" alt="" class="ml-4">
+                                <div class="d-flex flex-column ml-4">
+                                    <p class="middle-part__card-flight">TSE - IST</p>
+                                    <p class="middle-part__card-time">10:55 — 14:40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-end float-right mt-md-5 mt-sm-0" id="directions">
+                <div class="col-md-6 col-sm-12">
+                    <div class="middle-part__card d-flex flex-row">
+                        <img src="src/img/card_tse.png" alt="card-image" class="middle-part__card-image">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex flex-row justify-content-around">
+                                <p class="middle-part__card-title ml-4 mt-3">Алматы — Нур-Султан</p>
+                                <img src="src/img/badge_3.png" alt="" class="middle-part__card-icon ml-2 mt-3">
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="src/img/ic_plane.svg" alt="" class="ml-4">
+                                <div class="d-flex flex-column ml-4">
+                                    <p class="middle-part__card-flight">ALA - TSE</p>
+                                    <p class="middle-part__card-time">10:55 — 13:55</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="middle-part__card d-flex flex-row">
+                        <img src="src/img/card_mow.png" alt="card-image" class="middle-part__card-image">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex flex-row justify-content-between">
+                                <p class="middle-part__card-title ml-4 mt-3">Алматы — Москва</p>
+                                <img src="src/img/badge_4.png" alt="" class="middle-part__card-icon ml-2 mt-3">
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="src/img/ic_plane.svg" alt="" class="ml-4">
+                                <div class="d-flex flex-column ml-4">
+                                    <p class="middle-part__card-flight">ALA - MOW</p>
+                                    <p class="middle-part__card-time">10:55 — 13:40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    <div class="filler"><br></div>-->
+    <footer class="footer">
+        <div class="container-fluid footer-part">
+            <div class="container mt-md-0 mt-sm-0 pt-0">
+                <div class="row justify-content-md-center justify-content-sm-start pt-md-0 pt-sm-0 pt-xs-5">
+                    <div class="col-md-4 col-sm-12">
+                        <button onclick="window.location.href = '#';" class="button-appstore mr-md-2 mr-sm-0 "></button>
+                        <button onclick="window.location.href = '#';" class="button-playmarket"></button>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="footer-part__icon-phone ml-md-5 mr-md-3 ml-sm-0 float-left"></div>
+                        <div class="footer-part__contacts">+7 727 364 75 15</div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 justify-content-start">
+                        <div class="footer-part__icon-mail ml-md-5 mr-md-3 ml-sm-0 float-left"></div>
+                        <div class="footer-part__contacts">Info@halyktravel.kz</div>
+                    </div>
+                </div>
+                <div class="row mt-md-5 mt-sm-4 justify-content-center">
+                    <div class="col-12 footer-part__sign">from <strong>Halyk Bank</strong></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var cards = [
+            ['card_lon', 'Нур-Султан - Лондон', 'badge_1', '10:55 - 15:40'],
+            ['card_ist', 'Нур-Султан - Стамбул', 'badge_2', '10:55 - 13:40'],
+            ['card_tse', 'Алматы — Нур-Султан', 'badge_3', '10:55 - 14:40'],
+            ['card_mow', 'Алматы — Москва', 'badge_4', '10:55 - 13:55']
+        ];
+
+        for (card of cards) {
+            let div = document.createElement('div');
+            div.className = "";
+            div.innerHTML = "<div>Hello, man</br></div>";
+            //            document.getElementById("directions").appendChild(div);
+        }
+
+    </script>
+</body>
+
+</html>

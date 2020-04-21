@@ -1,0 +1,313 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope-Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope-Bold.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope-Light.otf");
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/Manrope-Semibold.otf");
+    font-style: normal;
+    font-weight: bolder;
+}
+
+
+body {
+    font-family: Manrope, Arial;
+    font-style: normal;
+    height: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.header-tab {
+    background-color: #2CB162;
+    height: 491px !important;
+    background-image: url('../src/img/cloud.svg');
+    background-position: 650px, 173px;
+    background-repeat: no-repeat;
+    z-index: -200 !important;
+    position: relative;
+}
+
+.header-tab__content-text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.phone {
+    height: 435px;
+}
+
+.button-appstore {
+    background-image: url("../src/img/btn_app_store.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 167px;
+    height: 49px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.button-playmarket {
+    background-image: url("../src/img/btn_google_play.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 167px;
+    height: 49px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.middle-part__baggage {
+    position: absolute;
+    width: 512px;
+    height: 836px;
+    left: -250px;
+    top: 50px;
+    transform: scale(1.5);
+}
+
+.middle-part__title {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 53px;
+    color: #2A353D;
+}
+
+.middle-part__card {
+    width: 360px;
+    height: 136px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px rgba(10, 15, 45, 0.0922749);
+    border-radius: 15px;
+}
+
+.middle-part__card-image {
+    width: 72px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.middle-part__card-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2A353D;
+}
+
+.middle-part__card-icon {
+    width: 25.5px;
+    height: 25.5px;
+}
+
+.middle-part__card-flight {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #ACBBBE;
+    opacity: 0.8;
+}
+
+.middle-part__card-time {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+    color: #2A353D;
+}
+
+.footer-part {
+    margin-top: 0px;
+    margin-bottom: -1000px !important;
+    position: relative !important;
+    display: inline-block !important;
+    bottom: -400px !important;
+    height: 214px;
+    background: #EBEBEB;
+    padding-top: 40px !important;
+    align-content: flex-end !important;
+    align-items: flex-end !important;
+}
+
+footer {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    bottom: 0px !important;
+}
+
+.footer-part__contacts {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    vertical-align: bottom !important;
+    margin-top: 10px;
+}
+
+.footer-part__icon-phone {
+    width: 48px;
+    height: 48px;
+    left: 636px;
+    top: 1295px;
+    background: rgba(196, 196, 196, 0.2);
+    background-image: url(../src/img/ic_phone-call.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.footer-part__icon-mail {
+    width: 48px;
+    height: 48px;
+    left: 636px;
+    top: 1295px;
+    background: rgba(196, 196, 196, 0.2);
+    background-image: url(../src/img/ic_mail.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.footer-part__sign {
+    text-align: center !important;
+}
+
+.filler {
+    display: block;
+    height: 800px !important;
+    width: 100%;
+    position: absolute;
+    background-color: fuchsia;
+}
+
+@media (pointer: coarse) {
+
+    .container {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .middle-part__baggage {
+        display: none !important;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .header-tab__content-text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    .header-tab {
+        background-color: #2CB162;
+        height: 249px !important;
+        background-image: url('../src/img/cloud.svg');
+        background-position: -230px, 30px;
+        background-repeat: no-repeat;
+        z-index: -200 !important;
+        position: relative;
+        padding-top: 30px !important;
+    }
+
+    .button-appstore {
+        width: 142px;
+        height: 42px;
+        background-size: 120px;
+    }
+
+    .button-playmarket {
+        width: 142px;
+        height: 42px;
+        background-size: 120px;
+    }
+
+    .middle-part__title {
+        font-size: 22px !important;
+        line-height: 30px;
+        margin-left: 15px !important;
+    }
+
+    .middle-part__card {
+        transform: scale(0.86);
+    }
+
+    footer {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        left: 0px !important;
+    }
+
+    .footer-part {
+        margin-top: 0px;
+        bottom: 0px !important;
+        margin-bottom: 0px !important;
+        position: relative !important;
+        padding-top: 30px !important;
+        display: inline-block !important;
+        padding-left: 30px;
+        margin-left: 0px;
+        height: 220px;
+        align-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+
+    .footer-part__contacts {
+        font-size: 16px !important;
+        line-height: 21px !important;
+        margin-top: 13px;
+    }
+
+    .footer-part__icon-phone {
+        transform: scale(0.7) !important;
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .footer-part__icon-mail {
+        transform: scale(0.7) !important;
+    }
+
+    .footer-part__sign {
+        text-align: center !important;
+    }
+
+    .filler {
+        display: block !important;
+        height: 780px;
+    }
+}
