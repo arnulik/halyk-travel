@@ -85,11 +85,11 @@ h1 {
 
 .middle-part__baggage {
     position: absolute;
-    width: 512px;
-    height: 836px;
-    left: -250px;
+    width: 431px;
+    height: 512px;
+    left: -230px;
     top: 50px;
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 .middle-part__title {
@@ -145,7 +145,7 @@ h1 {
     margin-bottom: -1000px !important;
     position: relative !important;
     display: inline-block !important;
-    bottom: -400px !important;
+    bottom: -300px !important;
     height: 214px;
     background: #EBEBEB;
     padding-top: 40px !important;
