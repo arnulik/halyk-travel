@@ -87,9 +87,9 @@ h1 {
     position: absolute;
     width: 431px;
     height: 512px;
-    left: -230px;
+    left: -200px;
     top: 50px;
-    transform: scale(2);
+    transform: scale(1.8);
 }
 
 .middle-part__title {
@@ -145,7 +145,7 @@ h1 {
     margin-bottom: -1000px !important;
     position: relative !important;
     display: inline-block !important;
-    bottom: -300px !important;
+    bottom: -260px !important;
     height: 214px;
     background: #EBEBEB;
     padding-top: 40px !important;
