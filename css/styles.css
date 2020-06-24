@@ -46,7 +46,7 @@ h1 {
     background-image: url('../src/img/cloud.svg');
     background-position: 650px, 173px;
     background-repeat: no-repeat;
-    z-index: -200 !important;
+/*    z-index: -200 !important;*/
     position: relative;
 }
 
