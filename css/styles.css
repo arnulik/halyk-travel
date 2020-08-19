@@ -46,7 +46,6 @@ h1 {
     background-image: url('../src/img/cloud.svg');
     background-position: 650px, 173px;
     background-repeat: no-repeat;
-/*    z-index: -200 !important;*/
     position: relative;
 }
 
@@ -70,6 +69,7 @@ h1 {
     border: 0px;
     border-radius: 5px;
     background-color: black;
+    z-index: 1000;
 }
 
 .button-playmarket {
@@ -81,6 +81,7 @@ h1 {
     border: 0px;
     border-radius: 5px;
     background-color: black;
+    z-index: 1000;
 }
 
 .middle-part__baggage {
@@ -213,10 +214,12 @@ footer {
 
     .phone {
         display: none;
+        z-index: -300;
     }
 
     .middle-part__baggage {
-        display: none !important;
+        display: none;
+        z-index: -300;
     }
 
     h1 {
@@ -239,7 +242,6 @@ footer {
         background-image: url('../src/img/cloud.svg');
         background-position: -230px, 30px;
         background-repeat: no-repeat;
-        z-index: -200 !important;
         position: relative;
         padding-top: 30px !important;
     }
@@ -248,12 +250,16 @@ footer {
         width: 142px;
         height: 42px;
         background-size: 120px;
+        z-index: 1000;
+
     }
 
     .button-playmarket {
         width: 142px;
         height: 42px;
         background-size: 120px;
+        z-index: 1000;
+
     }
 
     .middle-part__title {
