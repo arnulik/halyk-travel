@@ -42,7 +42,7 @@ h1 {
 
 .header-tab {
     background-color: #2CB162;
-    height: 491px !important;
+    height: 680px !important;
     background-image: url('../src/img/cloud.svg');
     background-position: 650px, 173px;
     background-repeat: no-repeat;
@@ -56,8 +56,13 @@ h1 {
     color: #FFFFFF;
 }
 
+.bonus {
+    background: #FCB016;
+    border-radius: 10px;
+}
+
 .phone {
-    height: 435px;
+    height: 671px;
 }
 
 .button-appstore {
@@ -238,7 +243,7 @@ footer {
 
     .header-tab {
         background-color: #2CB162;
-        height: 249px !important;
+        height: 350px !important;
         background-image: url('../src/img/cloud.svg');
         background-position: -230px, 30px;
         background-repeat: no-repeat;
